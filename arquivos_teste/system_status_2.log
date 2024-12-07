@@ -1,0 +1,98 @@
+[2024-12-06 11:27:25] IP: 26.94.128.174 | CPU: 1.7% | GPU: 40% | RAM: 76.6% | Disk: 94.4%
+[2024-12-06 11:27:31] IP: 26.94.128.173 | CPU: 5.1% | GPU: 37% | RAM: 76.8% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:27:37] IP: 26.94.128.173 | CPU: 2.5% | GPU: 84% | RAM: 76.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:27:43] IP: 26.94.128.173 | CPU: 6.9% | GPU: 67% | RAM: 76.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:27:49] IP: 26.94.128.173 | CPU: 2.7% | GPU: 81% | RAM: 76.8% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:28:40] IP: 26.94.128.173 | CPU: 2.9% | GPU: 48% | RAM: 78.2% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:28:46] IP: 26.94.128.173 | CPU: 2.6% | GPU: 10% | RAM: 78.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:28:52] IP: 26.94.128.173 | CPU: 11.9% | GPU: 20% | RAM: 78.3% | Disk: 94.4%
+[2024-12-06 11:28:58] IP: 26.94.128.173 | CPU: 1.3% | GPU: 64% | RAM: 78.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:29:04] IP: 26.94.128.173 | CPU: 3.5% | GPU: 16% | RAM: 78.3% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:30:36] IP: 26.94.128.173 | CPU: 7.3% | GPU: 16% | RAM: 78.7% | Disk: 94.4%
+[2024-12-06 11:30:42] IP: 26.94.128.173 | CPU: 1.3% | GPU: 90% | RAM: 78.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:30:48] IP: 26.94.128.173 | CPU: 2.2% | GPU: 63% | RAM: 78.7% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:30:54] IP: 26.94.128.173 | CPU: 6.6% | GPU: 57% | RAM: 78.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:31:00] IP: 26.94.128.173 | CPU: 9.2% | GPU: 59% | RAM: 78.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:31:06] IP: 26.94.128.173 | CPU: 1.3% | GPU: 79% | RAM: 78.8% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:31:12] IP: 26.94.128.173 | CPU: 6.2% | GPU: 56% | RAM: 78.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:31:18] IP: 26.94.128.173 | CPU: 2.6% | GPU: 33% | RAM: 79.0% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:31:24] IP: 26.94.128.173 | CPU: 1.2% | GPU: 71% | RAM: 78.9% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:31:30] IP: 26.94.128.173 | CPU: 1.6% | GPU: 97% | RAM: 79.1% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:31:36] IP: 26.94.128.173 | CPU: 1.8% | GPU: 10% | RAM: 79.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:31:42] IP: 26.94.128.173 | CPU: 8.7% | GPU: 39% | RAM: 79.2% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:31:48] IP: 26.94.128.173 | CPU: 3.6% | GPU: 46% | RAM: 79.1% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:31:54] IP: 26.94.128.173 | CPU: 1.6% | GPU: 48% | RAM: 79.2% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:00] IP: 26.94.128.173 | CPU: 25.9% | GPU: 68% | RAM: 81.4% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:06] IP: 26.94.128.173 | CPU: 6.3% | GPU: 43% | RAM: 81.1% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:20] IP: 26.94.128.173 | CPU: 7.3% | GPU: 36% | RAM: 81.3% | Disk: 94.4%
+[2024-12-06 11:32:21] IP: 26.94.128.173 | CPU: 7.9% | GPU: 69% | RAM: 81.3% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:22] IP: 26.94.128.173 | CPU: 2.2% | GPU: 58% | RAM: 81.4% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:23] IP: 26.94.128.173 | CPU: 3.2% | GPU: 56% | RAM: 81.4% | Disk: 94.4%
+[2024-12-06 11:32:24] IP: 26.94.128.173 | CPU: 1.0% | GPU: 78% | RAM: 81.3% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:25] IP: 26.94.128.173 | CPU: 2.6% | GPU: 80% | RAM: 81.4% | Disk: 94.4%
+[2024-12-06 11:32:26] IP: 26.94.128.173 | CPU: 4.2% | GPU: 68% | RAM: 81.4% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:27] IP: 26.94.128.173 | CPU: 2.0% | GPU: 47% | RAM: 81.3% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:28] IP: 26.94.128.173 | CPU: 1.2% | GPU: 89% | RAM: 81.4% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:29] IP: 26.94.128.173 | CPU: 2.2% | GPU: 38% | RAM: 81.3% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:30] IP: 26.94.128.173 | CPU: 1.0% | GPU: 16% | RAM: 81.2% | Disk: 94.4%
+[2024-12-06 11:32:31] IP: 26.94.128.173 | CPU: 1.6% | GPU: 88% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:32] IP: 26.94.128.173 | CPU: 2.2% | GPU: 14% | RAM: 81.2% | Disk: 94.4%
+[2024-12-06 11:32:33] IP: 26.94.128.173 | CPU: 1.2% | GPU: 29% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:34] IP: 26.94.128.173 | CPU: 1.8% | GPU: 0% | RAM: 81.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:35] IP: 26.94.128.173 | CPU: 5.2% | GPU: 55% | RAM: 81.3% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:36] IP: 26.94.128.173 | CPU: 3.0% | GPU: 96% | RAM: 81.2% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:37] IP: 26.94.128.173 | CPU: 2.3% | GPU: 9% | RAM: 81.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:38] IP: 26.94.128.173 | CPU: 6.9% | GPU: 72% | RAM: 81.2% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:39] IP: 26.94.128.173 | CPU: 9.6% | GPU: 43% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:40] IP: 26.94.128.173 | CPU: 5.8% | GPU: 96% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:41] IP: 26.94.128.173 | CPU: 5.1% | GPU: 75% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:42] IP: 26.94.128.173 | CPU: 5.9% | GPU: 86% | RAM: 81.3% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:43] IP: 26.94.128.173 | CPU: 4.4% | GPU: 36% | RAM: 81.2% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:44] IP: 26.94.128.173 | CPU: 2.2% | GPU: 74% | RAM: 81.1% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:45] IP: 26.94.128.173 | CPU: 7.8% | GPU: 55% | RAM: 81.4% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:47] IP: 26.94.128.173 | CPU: 3.1% | GPU: 53% | RAM: 81.4% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:48] IP: 26.94.128.173 | CPU: 10.2% | GPU: 41% | RAM: 81.5% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:49] IP: 26.94.128.173 | CPU: 4.0% | GPU: 15% | RAM: 81.5% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:50] IP: 26.94.128.173 | CPU: 6.6% | GPU: 54% | RAM: 81.4% | Disk: 94.4%
+[2024-12-06 11:32:51] IP: 26.94.128.173 | CPU: 3.0% | GPU: 38% | RAM: 81.5% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:52] IP: 26.94.128.173 | CPU: 7.1% | GPU: 12% | RAM: 81.2% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:32:53] IP: 26.94.128.173 | CPU: 9.8% | GPU: 84% | RAM: 81.3% | Disk: 94.4%
+[2024-12-06 11:32:54] IP: 26.94.128.173 | CPU: 6.4% | GPU: 24% | RAM: 81.3% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:55] IP: 26.94.128.173 | CPU: 8.1% | GPU: 22% | RAM: 81.3% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:56] IP: 26.94.128.173 | CPU: 1.9% | GPU: 23% | RAM: 81.4% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:32:57] IP: 26.94.128.173 | CPU: 3.1% | GPU: 26% | RAM: 81.3% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:32:58] IP: 26.94.128.173 | CPU: 5.7% | GPU: 83% | RAM: 81.4% | Disk: 94.4%
+[2024-12-06 11:32:59] IP: 26.94.128.173 | CPU: 13.6% | GPU: 67% | RAM: 81.5% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:00] IP: 26.94.128.173 | CPU: 8.6% | GPU: 50% | RAM: 81.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:01] IP: 26.94.128.173 | CPU: 5.2% | GPU: 82% | RAM: 81.8% | Disk: 94.4%
+[2024-12-06 11:33:02] IP: 26.94.128.173 | CPU: 10.5% | GPU: 15% | RAM: 81.8% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:03] IP: 26.94.128.173 | CPU: 33.6% | GPU: 39% | RAM: 81.8% | Disk: 94.4%
+[2024-12-06 11:33:04] IP: 26.94.128.173 | CPU: 8.4% | GPU: 24% | RAM: 81.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:05] IP: 26.94.128.173 | CPU: 1.6% | GPU: 61% | RAM: 81.6% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:06] IP: 26.94.128.173 | CPU: 3.8% | GPU: 21% | RAM: 81.6% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:07] IP: 26.94.128.173 | CPU: 1.4% | GPU: 20% | RAM: 81.6% | Disk: 94.4%
+[2024-12-06 11:33:08] IP: 26.94.128.173 | CPU: 2.3% | GPU: 5% | RAM: 81.6% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:09] IP: 26.94.128.173 | CPU: 1.4% | GPU: 36% | RAM: 81.6% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:10] IP: 26.94.128.173 | CPU: 4.2% | GPU: 30% | RAM: 81.6% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:11] IP: 26.94.128.173 | CPU: 0.9% | GPU: 93% | RAM: 81.7% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:33:12] IP: 26.94.128.173 | CPU: 2.8% | GPU: 64% | RAM: 81.7% | Disk: 94.4%
+[2024-12-06 11:33:13] IP: 26.94.128.173 | CPU: 3.5% | GPU: 69% | RAM: 81.8% | Disk: 94.4%
+[2024-12-06 11:33:14] IP: 26.94.128.173 | CPU: 22.1% | GPU: 78% | RAM: 81.9% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:15] IP: 26.94.128.173 | CPU: 3.0% | GPU: 20% | RAM: 81.7% | Disk: 94.4%
+[2024-12-06 11:33:16] IP: 26.94.128.173 | CPU: 2.7% | GPU: 4% | RAM: 81.8% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:17] IP: 26.94.128.173 | CPU: 2.6% | GPU: 0% | RAM: 81.7% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:18] IP: 26.94.128.173 | CPU: 9.6% | GPU: 26% | RAM: 81.9% | Disk: 94.4%
+[2024-12-06 11:33:19] IP: 26.94.128.173 | CPU: 4.2% | GPU: 78% | RAM: 82.0% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:20] IP: 26.94.128.173 | CPU: 3.8% | GPU: 55% | RAM: 81.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:21] IP: 26.94.128.173 | CPU: 3.9% | GPU: 27% | RAM: 82.0% | Disk: 94.4%
+[2024-12-06 11:33:22] IP: 26.94.128.173 | CPU: 3.4% | GPU: 71% | RAM: 81.9% | Disk: 94.4%
+[2024-12-06 11:33:23] IP: 26.94.128.173 | CPU: 6.6% | GPU: 17% | RAM: 81.9% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:24] IP: 26.94.128.173 | CPU: 3.4% | GPU: 97% | RAM: 81.9% | Disk: 94.4% | ERROR: Disk read error
+[2024-12-06 11:33:25] IP: 26.94.128.173 | CPU: 3.9% | GPU: 8% | RAM: 81.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:26] IP: 26.94.128.173 | CPU: 4.2% | GPU: 4% | RAM: 81.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:27] IP: 26.94.128.173 | CPU: 6.8% | GPU: 36% | RAM: 81.9% | Disk: 94.4% | ERROR: Memory overload
+[2024-12-06 11:33:28] IP: 26.94.128.173 | CPU: 3.6% | GPU: 3% | RAM: 81.8% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:29] IP: 26.94.128.173 | CPU: 13.6% | GPU: 48% | RAM: 81.8% | Disk: 94.4%
+[2024-12-06 11:33:30] IP: 26.94.128.173 | CPU: 12.8% | GPU: 50% | RAM: 81.9% | Disk: 94.4% | ERROR: High CPU usage
+[2024-12-06 11:33:31] IP: 26.94.128.173 | CPU: 10.5% | GPU: 49% | RAM: 81.8% | Disk: 94.4%
+[2024-12-06 11:33:32] IP: 26.94.128.173 | CPU: 9.6% | GPU: 24% | RAM: 81.8% | Disk: 94.4% | ERROR: High CPU usage
