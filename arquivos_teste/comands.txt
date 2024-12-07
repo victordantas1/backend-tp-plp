@@ -1,1 +1,1 @@
-$ perl regex_read_log.pl
+perl regex_read_log.pl
