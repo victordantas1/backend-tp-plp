@@ -12,7 +12,6 @@ hook after => sub {
 };
 
 post '/upload' => sub {
-   
     my @uploads = upload('files');
     
     unless (@uploads) {
