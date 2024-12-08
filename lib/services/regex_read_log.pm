@@ -9,7 +9,6 @@ my $log_file = 'system_status.log';
 # Nome do arquivo CSV de saída
 my $csv_file = 'system_status.csv';
 
-# Função para processar uma linha e retornar os valores extraídos
 sub process_line {
     my ($line) = @_;
 
@@ -27,19 +26,20 @@ sub process_line {
     if ($line =~ /GPU:\s([\d\.]+)%/) {
         $gpu = $1;
     }
-    if ($line =~ /Media de CPU:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Media de\s)?CPU:\s([\d\.]+)%/) {
         $cpu = $1;
     }
     if ($line =~ /RAM:\s([\d\.]+)%/) {
         $ram = $1;
     }
-    if ($line =~ /Disco:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Disco|Disk):\s([\d\.]+)%/) {
         $disk = $1;
     }
 
     # Retornar os valores extraídos
     return ($date, $time, $ip, $gpu, $cpu, $ram, $disk);
 }
+
 
 # Abrir o arquivo de log para leitura
 open my $fh, '<', $log_file or die "Não foi possível abrir o arquivo: $!";
