@@ -3,25 +3,17 @@ use strict;
 use warnings;
 use Text::CSV;
 
-# Abrir o arquivo de log para leitura
+# Nome do arquivo de log
 my $log_file = 'system_status.log';
-open my $fh, '<', $log_file or die "Não foi possível abrir o arquivo: $!";
-
-# Criar e configurar um objeto Text::CSV para gerar o CSV
-my $csv = Text::CSV->new({ binary => 1, eol => "\n" });
 
 # Nome do arquivo CSV de saída
 my $csv_file = 'system_status.csv';
-open my $csv_fh, '>', $csv_file or die "Não foi possível criar o arquivo CSV: $!";
 
-# Escrever cabeçalhos no CSV
-$csv->print($csv_fh, ["Data", "Hora", "IP", "GPU (%)", "CPU Média (%)", "RAM (%)", "Disco (%)"]);
+# Função para processar uma linha e retornar os valores extraídos
+sub process_line {
+    my ($line) = @_;
 
-# Processar o arquivo linha por linha
-while (my $line = <$fh>) {
-    chomp $line;
-
-    # Variáveis padrão
+    # Valores padrão
     my ($date, $time, $ip, $gpu, $cpu, $ram, $disk) = ('N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A');
 
     # Regex flexível para capturar quaisquer campos disponíveis
@@ -45,8 +37,25 @@ while (my $line = <$fh>) {
         $disk = $1;
     }
 
-    # Escrever os dados capturados no arquivo CSV
-    $csv->print($csv_fh, [$date, $time, $ip, $gpu, $cpu, $ram, $disk]);
+    # Retornar os valores extraídos
+    return ($date, $time, $ip, $gpu, $cpu, $ram, $disk);
+}
+
+# Abrir o arquivo de log para leitura
+open my $fh, '<', $log_file or die "Não foi possível abrir o arquivo: $!";
+
+# Criar e configurar um objeto Text::CSV para gerar o CSV
+my $csv = Text::CSV->new({ binary => 1, eol => "\n" });
+open my $csv_fh, '>', $csv_file or die "Não foi possível criar o arquivo CSV: $!";
+
+# Escrever cabeçalhos no CSV
+$csv->print($csv_fh, ["Data", "Hora", "IP", "GPU (%)", "CPU Média (%)", "RAM (%)", "Disco (%)"]);
+
+# Processar o arquivo linha por linha e escrever os dados no CSV
+while (my $line = <$fh>) {
+    chomp $line;
+    my @values = process_line($line);
+    $csv->print($csv_fh, \@values);
 }
 
 # Fechar os arquivos
