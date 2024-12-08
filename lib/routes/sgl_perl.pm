@@ -80,11 +80,21 @@ post '/upload' => sub {
                 push @ips, $1;
             }
             ($date, $time, $ip, $gpu, $cpu, $ram, $disk) = process_line($line);
-            push @ip, $ip;
-            push @gpu, $gpu;
-            push @cpu, $cpu;
-            push @ram, $ram;
-            push @disk, $disk;
+            if ($ip != 'N/A') {
+                push @ip, $ip;
+            }
+            if ($gpu != 'N/A') {
+                push @gpu, $gpu;
+            }
+            if ($cpu != 'N/A') {
+                push @cpu, $cpu;   
+            }
+            if ($ram != 'N/A') {
+                push @ram, $ram;
+            }
+            if ($disk != 'N/A') {
+                push @disk, $disk;
+            }
         }
 
         # Salvar IPs e o nome do arquivo no CSV
