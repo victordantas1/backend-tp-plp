@@ -3,8 +3,16 @@ use Dancer2;
 use Text::CSV;
 use JSON;
 
+hook after => sub {
+    my $response = shift;
+
+    $response->header('Access-Control-Allow-Origin'  => '*'); # Ou substitua * pela origem permitida
+    $response->header('Access-Control-Allow-Methods' => 'GET, POST, PUT, DELETE, OPTIONS');
+    $response->header('Access-Control-Allow-Headers' => 'Content-Type, Authorization');
+};
+
 post '/upload' => sub {
-    # Recebe os arquivos enviados no campo 'files'
+   
     my @uploads = upload('files');
     
     unless (@uploads) {
