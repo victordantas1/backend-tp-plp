@@ -23,7 +23,7 @@ sub process_line {
     if ($line =~ /Endere.*IP:\s([\d\.]+)/) {
         $ip = $1;
     }
-    if ($line =~ /GPU:\s([\d\.]+)%/) {
+    if ($line =~ /GPU.*?([\d\.]+)%/) {
         $gpu = $1;
     }
     if ($line =~ /(?:Media de\s)?CPU:\s([\d\.]+)%/) {
