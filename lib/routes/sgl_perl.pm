@@ -100,6 +100,7 @@ post '/upload' => sub {
             cpu => \@cpu,
             disk => \@disk
         };
+        push @results, { filename => $filename, ips => \@ips };
         close $fh;
     }
 
