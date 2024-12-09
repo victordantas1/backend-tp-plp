@@ -22,19 +22,19 @@ sub process_line {
         $date = $1;
         $time = $2;
     }
-    if ($line =~ /Endere.*IP:\s([\d\.]+)/) {
+    if ($line =~ /(?:Endere\s)?IP:\s([\d\.]+)/) {
         $ip = $1;
     }
     if ($line =~ /GPU.*?([\d.]+)%/) {
         $gpu = $1;
     }
-    if ($line =~ /Media de CPU:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Media de\s)?CPU:\s([\d\.]+)%/) {
         $cpu = $1;
     }
-    if ($line =~ /RAM:\s([\d\.]+)%/) {
+    if ($line =~ /RAM.*?([\d\.]+)%/) {
         $ram = $1;
     }
-    if ($line =~ /Disco:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Disco|Disk):\s([\d\.]+)%/) {
         $disk = $1;
     }
 

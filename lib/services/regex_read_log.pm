@@ -4,7 +4,7 @@ use warnings;
 use Text::CSV;
 
 # Nome do arquivo de log
-my $log_file = 'system_status.log';
+my $log_file = 'detailed_computer_info.log';
 
 # Nome do arquivo CSV de saída
 my $csv_file = 'system_status.csv';
@@ -24,16 +24,16 @@ sub process_line {
     if ($line =~ /Endere.*IP:\s([\d\.]+)/) {
         $ip = $1;
     }
-    if ($line =~ /GPU:\s([\d\.]+)%/) {
+    if ($line =~ /GPU.*?([\d\.]+)%/) {
         $gpu = $1;
     }
-    if ($line =~ /Media de CPU:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Media de\s)?CPU:\s([\d\.]+)%/) {
         $cpu = $1;
     }
-    if ($line =~ /RAM:\s([\d\.]+)%/) {
+    if ($line =~ /RAM.*?([\d\.]+)%/) {
         $ram = $1;
     }
-    if ($line =~ /Disco:\s([\d\.]+)%/) {
+    if ($line =~ /(?:Disco|Disk):\s([\d\.]+)%/) {
         $disk = $1;
     }
 
